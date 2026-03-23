@@ -1,57 +1,60 @@
 # NASR LADIB
-## Cloud DevOps Engineer | Kubernetes | GitOps | AWS • GCP • Azure | IaC | MLOPS | SRE
+## Senior Platform Engineer | DevOps • Cloud • Observability | Kubernetes | GCP • AWS • Azure | IaC | OpenTelemetry
 
-6 years of experience
-📞 +xxxxxxx
-✉ xxxxxxx
+7 years of experience
+✉ ladibnasr@gmail.com
 📍 Lille, France  
 🔗 [LinkedIn](https://www.linkedin.com/in/nasr-ladib)  
-📝 [Medium](https://medium.nasrladib.com) 
+📝 [Medium](https://nasrladib.medium.com) 
 🖥️ [GitHub](https://github.com/Nasr-Ladib) 
 
 ## PROFESSIONAL SUMMARY
-Passionate Site Reliability Engineer and DevSecOps specialist with 6 years of experience optimizing cloud infrastructure across AWS, Azure, and GCP. Technical expertise in containerization, infrastructure as code, CI/CD pipelines, and security automation. Skilled at implementing GitOps workflows and enhancing operational visibility through robust monitoring solutions. Proven track record of helping organizations accelerate digital transformation by implementing DevSecOps best practices, automating infrastructure deployment, and securing cloud-native applications.
+Senior Platform Engineer with 7 years of experience building and operating cloud-native platforms at scale. Currently driving platform engineering at Decathlon, designing multi-cloud provisioning systems (GCP, Aiven, Vault, MongoDB Atlas), building observability platforms with OpenTelemetry, and developing custom Terraform providers and internal developer tooling in Go and Python. Deep expertise in Kubernetes, infrastructure as code, CI/CD automation, database reliability engineering, and FinOps. Proven track record of accelerating developer productivity through self-service platforms, GitOps workflows, and robust monitoring solutions across AWS, GCP, and Azure.
 
 ## SKILLS
 
 #### Cloud Platforms
 **AWS:** EC2, S3, RDS, CloudWatch, EKS, Lambda, CloudFront, Route53, EventBridge, Inspector, Config, Control Tower, Landing Zone  
+**GCP:** GKE, Cloud Run, Cloud Functions, Pub/Sub, BigQuery, GCS, IAM, Cloud Scheduler, Cloud Workflows, Alloy DB, Cloud SQL  
 **Azure:** AKS, Azure DevOps  
-**GCP:** GKE, Pub/Sub, Cloud Run, BigQuery  
+**Managed Services:** Aiven (PostgreSQL, Kafka, Redis, Valkey, OpenSearch), MongoDB Atlas, Cloudflare  
 
 #### Container & Orchestration
-**Container Technologies:** Docker, Docker Compose, Docker Hub  
+**Container Technologies:** Docker, Docker Compose, Podman  
 **Kubernetes Ecosystem:** Kubernetes, Helm, Kubeadm, ArgoCD, Kustomize, Cilium CNI  
 **Database Containers:** CloudNative PG, PGBouncer  
-**Management Tools:** Portainer  
 
 #### CI/CD & GitOps
 **CI Systems:** GitHub Actions, GitLab CI, Jenkins, AWS CodeBuild, Bamboo  
 **CD Systems:** ArgoCD, GitOps workflows  
+**Workflow Engineering:** Reusable GitHub Actions (composite actions, reusable workflows), release-please  
 **Package Management:** Nexus Pro  
-**Mobile CI/CD:** FastLane, iOS/Android builds  
 
 #### Infrastructure as Code
 **Provisioning:** Terraform, CloudFormation  
+**Custom Providers:** Terraform Plugin Framework (Go), custom Terraform provider development  
 **Configuration Management:** Ansible, AWX  
+**Tools:** tflint, pre-commit, Snyk  
 
 #### Monitoring & Observability
+**OpenTelemetry:** OTel Collector, OpAMP, OTLP, auto-instrumentation, custom exporters  
 **Metrics & Monitoring:** Prometheus, Grafana, Datadog, CloudWatch  
-**Logging:** ELK Stack  
+**Logging:** ELK Stack, Google Cloud Logging  
 **Error Tracking:** Sentry  
-**Tracing:** OpenTelemetry  
+**Custom Tooling:** Built self-contained observability platform (Go + React)  
 
 #### Security
-**Secret Management:** HashiCorp Vault, Kubernetes Secrets  
-**Static Analysis:** SonarQube  
-**Vulnerability Scanning:** Trivy, Checkmarx (DAST & SCA)  
+**Secret Management:** HashiCorp Vault (policies, auth backends, KV, GCP auth)  
+**Static Analysis:** SonarQube, SonarCloud  
+**Vulnerability Scanning:** Trivy, Checkmarx (DAST & SCA), Snyk  
 **Dependency Management:** Dependabot, Renovate  
 **Access Control:** RBAC, Keycloak  
 
 #### Data & Storage
-**Databases:** PostgreSQL, Redis, RDS, MongoDB
+**Databases:** PostgreSQL, Redis, Valkey, OpenSearch, MongoDB Atlas, RDS, DuckDB  
 **Messaging:** Kafka, RabbitMQ  
-**DATA Platform:** Snowflake
+**Database Tooling:** Flyway, DBLinter, pgwatch, pgbackup, CloudBeaver  
+**DATA Platform:** Snowflake  
 
 #### Web Servers & Proxy
 **Web Servers:** Nginx, Apache, Haproxy, Traefik  
@@ -61,11 +64,15 @@ Passionate Site Reliability Engineer and DevSecOps specialist with 6 years of ex
 **Methodologies:** Agile, Scrum, GitOps, DevSecOps  
 **Version Control:** Git, GitFlow, Conventional Commits  
 **Systems:** Linux, CentOS  
-**Testing:** Selenium, JUnit  
+**Testing:** pytest, Allure, Selenium, JUnit, K6 (load testing)  
+**Documentation:** MkDocs (Material), Marp  
 **Self-Service Platform:** Backstage  
 
 #### Programming & Scripting
-**Languages:** Python, Bash, Go  
+**Languages:** Python, Go, Bash  
+**Python Ecosystem:** FastAPI, Pydantic, SQLModel, asyncpg, Typer, uv, Poetry  
+**Go Ecosystem:** Gin, Terraform Plugin Framework, goreleaser  
+**Frontend:** React, TypeScript, Vite  
 **ML/AI Tools:** Airflow, MLflow  
 
 ## PROFESSIONAL EXPERIENCE
@@ -73,13 +80,46 @@ Passionate Site Reliability Engineer and DevSecOps specialist with 6 years of ex
 <div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
 <div style="width: 25%; padding-right: 20px;">
 
-<img src="https://media.licdn.com/dms/image/v2/D4E0BAQGJzT1QoFh2HA/company-logo_200_200/company-logo_200_200/0/1715861395413/credit_agricole_personal_finance_mobility_logo?e=1749081600&v=beta&t=lf2SQH_qmiZBIBx6H4elJp0BLWnltfNANSpVHQSChfI" width="100" alt="Credit Agricole">
+<img src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Decathlon_-_logo_%28France%2C_2024%29.svg" width="100" alt="Decathlon">
+
+**Decathlon Digital**
+
+<!-- TODO: adjust duration -->
+6 months
+
+<!-- TODO: adjust start date -->
+November 2025 - Present
+
+Lille, France
+</div>
+<div style="width: 75%;">
+
+### Senior Platform Engineer (CPE / DBRE)
+
+**Platform & IaC:** Building and operating the "3S" internal developer platform for multi-cloud application provisioning
+
+* Contributed to the **internal developer platform** — declarative provisioning of GCP, GKE, Aiven, Vault, MongoDB Atlas, Cloudflare, and Datadog via a single YAML stack definition, serving 1000+ product teams
+* Built **reusable CI/CD workflows** (GitHub Actions) standardizing Terraform plan/apply/destroy across 50+ stack repositories
+* Developed a **custom Terraform provider in Go** for Aiven project management, published to the internal registry
+* Created the **Aiven Projects Manager API** (FastAPI, Cloud Run, OpenTelemetry) and **FinOps tooling** (BigQuery, GCS) for database governance and cost control
+
+**Observability & Reliability:**
+
+* Implemented **DBLinter pipeline** for automated database quality scanning with SARIF report ingestion and Flyway migrations
+* Managed **Vault infrastructure**, **Kubernetes DBA workloads** (GKE/EKS), and database lifecycle automation (dump/restore/refresh)
+</div>
+</div>
+
+<div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
+<div style="width: 25%; padding-right: 20px;">
+
+<img src="https://upload.wikimedia.org/wikipedia/fr/a/a6/Cr%C3%A9dit_Agricole.svg" width="100" alt="Credit Agricole">
 
 **Crédit Agricole Personal Finance & Mobility**
 
-3 months
+10 months
 
-February 2025 - Present
+February 2025 - October 2025
 
 Roubaix, France
 </div>
@@ -103,7 +143,7 @@ Roubaix, France
 <div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
 <div style="width: 25%; padding-right: 20px;">
 
-<img src="https://media.licdn.com/dms/image/v2/C4E0BAQFXmI6LYRtTmw/company-logo_200_200/company-logo_200_200/0/1631331748410?e=1749081600&v=beta&t=sPeBB9mtSgOk0N2h5lFjRPon8i5n2LPuebMXdKvSo6g" width="100" alt="Auchan">
+<img src="https://logo-marque.com/wp-content/uploads/2021/02/Auchan-Logo.png" width="100" alt="Auchan">
 
 **AUCHAN RETAIL INTERNATIONAL**
 
@@ -141,7 +181,7 @@ Lille, France
 <div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
 <div style="width: 25%; padding-right: 20px;">
 
-<img src="https://media.licdn.com/dms/image/v2/D4E0BAQEVA8qVNEAZjQ/company-logo_200_200/company-logo_200_200/0/1723047262516/skillcapinc_logo?e=1749081600&v=beta&t=KwI6bShhbZkXRL_sOeZ9OV7BVcbhAmyWSnmEF-K853c" width="100" alt="Skillcap">
+<img src="https://media.licdn.com/dms/image/v2/D4E0BAQEVA8qVNEAZjQ/company-logo_200_200/company-logo_200_200/0/1723047262516/skillcapinc_logo?e=2147483647&v=beta&t=FFg1aRMRoOi13g-y11QMxaDrs1tSPR5_KXSpSfpTWPw" width="100" alt="Skillcap">
 
 **Skillcap Studio**
 2 months
@@ -165,7 +205,7 @@ Santiago, Chile (Part-Time Remote)
 <div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
 <div style="width: 25%; padding-right: 20px;">
 
-<img src="https://media.licdn.com/dms/image/v2/C560BAQEloqEBLHUukg/company-logo_200_200/company-logo_200_200/0/1630631081923/devoteam_logo?e=1749081600&v=beta&t=gJNt6F9C6Dp1UBCo7eG6pKonEytll9bpjnEWuCUN2hI" width="100" alt="Devoteam">
+<img src="https://upload.wikimedia.org/wikipedia/commons/7/79/Dev_logo_rgb.png" width="100" alt="Devoteam">
 
 **Devoteam**
 
@@ -190,7 +230,7 @@ France
 <div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
 <div style="width: 25%; padding-right: 20px;">
 
-<img src="https://media.licdn.com/dms/image/v2/C4E0BAQF6EyEEBCV7Sw/company-logo_200_200/company-logo_200_200/0/1638270037562?e=1749081600&v=beta&t=0PyT6ccMvCTi6KTRVSJkQxc1Y3dyK-TeiWzxjS2wbQc" width="100" alt="KooL Delivery">
+<img src="https://play-lh.googleusercontent.com/1Sxo8b_WErvgb9iHO35UaUEWKU79B88Z9avAls79_CHbHF8tSTzIzYmo3MZWArG4cg=w480-h960-rw" width="100" alt="KooL Delivery">
 
 **KooL Delivery**
 
@@ -215,7 +255,7 @@ Tunisia
 <div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
 <div style="width: 25%; padding-right: 20px;">
 
-<img src="https://media.licdn.com/dms/image/v2/C4E0BAQEklO2xVV7h6g/company-logo_200_200/company-logo_200_200/0/1630925298796/yaiglobal_logo?e=1749081600&v=beta&t=ELRKZHvitbLJoZ5_BT_M6IYvVuljybG2t_-EICGrUG8" width="100" alt="YaiGlobal">
+<img src="https://yaiglobal.com/static/media/logo.bd3372e3dc948eae5df8.png" width="100" alt="YaiGlobal">
 
 **YaiGlobal**
 
@@ -247,29 +287,6 @@ Tunisia
 </div>
 </div>
 
-<div style="display: flex; margin-bottom: 20px; page-break-inside: avoid;">
-<div style="width: 25%; padding-right: 20px;">
-
-<img src="https://media.licdn.com/dms/image/v2/D4D0BAQE-EYzo41dN-A/company-logo_200_200/company-logo_200_200/0/1666170284299/piterion_logo?e=1749081600&v=beta&t=kOUN3aAAQrJUUJ0osBHF-BFy4w4-FJoBhphRIHU8qpo" width="100" alt="Piterion">
-
-**PITERION Group**
-
-4 months
-March 2021 - June 2021
-Tunisia
-</div>
-<div style="width: 75%;">
-
-### DevOps Engineer
-
-**Context:** Short-term mission to help PITERION implement DevOps tools and practices in their portal solution
-
-* Implemented auto-scaling containerized applications that adapted dynamically to workload changes
-* Designed reverse proxy architecture with Nginx to enhance security and optimize traffic management
-* Automated container image updates using Ansible, reducing maintenance overhead by 50%
-* Implemented Portainer for container monitoring and management, improving operational visibility
-</div>
-</div>
 
 ## EDUCATION
 
@@ -297,7 +314,10 @@ Tunisia
 ## PUBLICATIONS & OPEN SOURCE
 * [Enforcing Secure and Cost-Effective Infrastructure as Code with Terraform, OPA, and Infracost](https://medium.nasrladib.com/enforcing-secure-and-cost-effective-infrastructure-as-code-with-terraform-opa-and-infracost-22b4b4c880c2)
 * [Kubernetes Operator - k8s-secret-expiry-controller](https://github.com/devops-360-online/k8s-secret-expiry-controller) - Created a custom Kubernetes operator to manage secret expiration
-* [TALQ AI VOICE](https://dev.talq.xyz)
+* [TALQ AI VOICE](https://www.youtube.com/watch?v=6TgvjRT1kvQ)
+
+
+
 
 
 CONVERT TO PDF: https://apitemplate.io/pdf-tools/convert-markdown-to-pdf/
