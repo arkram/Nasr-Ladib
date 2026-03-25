@@ -31,7 +31,7 @@ Senior Platform Engineer with 7 years of experience designing and operating larg
 Building and operating the "3S" internal developer platform for multi-cloud application provisioning.
 
 - Contributed to a **declarative provisioning platform** enabling 1000+ product teams to deploy GCP, GKE, Aiven, Vault, MongoDB Atlas, and Cloudflare resources via a single YAML stack definition
-- Built **reusable CI/CD workflows** (GitHub Actions) standardizing Terraform plan/apply/destroy across 50+ repositories, reducing pipeline duplication by [X]%
+- Built **reusable CI/CD workflows** (GitHub Actions) standardizing Terraform plan/apply/destroy across 50+ repositories, reducing pipeline duplication
 - Developed a **custom Terraform provider in Go** for Aiven project management (Terraform Plugin Framework), published to internal registry
 - Built the **Aiven Projects Manager API** (FastAPI, Cloud Run, OpenTelemetry) and FinOps tooling (BigQuery, GCS) for database governance and cost visibility
 - Managed **Vault infrastructure** and **Kubernetes DBA workloads** (GKE/EKS), including automated database lifecycle operations (dump/restore/refresh)
@@ -43,7 +43,7 @@ Centralized Data Platform (STAR Project) with AI/ML capabilities for 3000+ emplo
 
 - Led technical workshops to design a **compliant, reusable data platform** with decoupled architecture across business units
 - Delivered a production **Snowflake lakehouse on AWS**: dedicated landing-zone account, PrivateLink networking, KMS encryption on all S3 stages
-- Built modular **data-ingestion pipelines** (Glue, Snowpipe, Data Factory) feeding Snowflake, reducing manual data processing by [X]%
+- Built modular **data-ingestion pipelines** (Glue, Snowpipe, Data Factory) feeding Snowflake, reducing manual data processing
 - Implemented **event-driven architecture** (Lambda, AWS Batch, EventBridge) for corporate account notifications
 - Built CI/CD pipelines with **OpenTelemetry as standard** for all application observability
 - Contributed to **CEOS AI** project: Airflow, MLflow, and LLM deployment on EKS for multi-tenancy
@@ -54,9 +54,9 @@ Centralized Data Platform (STAR Project) with AI/ML capabilities for 3000+ emplo
 Center team supporting 50+ projects across the organization.
 
 - Deployed and managed **AWX with Ansible playbooks** for VM lifecycle management across **10,000+ machines** on GCP and Azure
-- Developed a **Backstage-based self-service platform** (DevGate) for engineering workflows, reducing provisioning requests by [X]%
+- Developed a **Backstage-based self-service platform** (DevGate) for engineering workflows, reducing provisioning requests by 70%
 - Centralized **ArgoCD management** for Kubernetes application deployment (GKE, AKS) across the organization
-- Configured **GitHub Actions runners** with dynamic scaling (20–200 instances), cutting CI costs by [X]%
+- Configured **GitHub Actions runners** with dynamic scaling (20–200 instances), cutting CI costs by 50%
 - Integrated **DAST/SCA security scanning** (Checkmarx, Trivy, SonarQube) into all pipelines, improving vulnerability detection coverage
 - Centralized **DORA metrics** via Pub/Sub, Cloud Run, and BigQuery for delivery performance visibility across 50+ teams
 
